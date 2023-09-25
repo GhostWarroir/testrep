@@ -105,8 +105,8 @@ function set_strings() {
 
 
     CHROOT=kali-${SYS_ARCH}
-    IMAGE_NAME=kalifs-${SYS_ARCH}-${wimg}.tar.xz
-    SHA_NAME=kalifs-${SYS_ARCH}-${wimg}.sha512sum
+    IMAGE_NAME=kalifs-arm64-full.tar.xz
+    SHA_NAME=kalifs-arm64-full.sha512sum
 }    
 
 function prepare_fs() {
